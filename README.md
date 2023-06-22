@@ -26,7 +26,7 @@ A simple Ansible playbook looks like this:
 ```yaml
 ---
 - name: Install Apache
-  hosts: webserver
+  hosts: webserver (your_remote_server_group_or_name)
   become: yes
   tasks:
     - name: Install httpd
