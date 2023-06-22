@@ -45,6 +45,18 @@ The `hosts` value refers to the groups or hosts in your Ansible inventory on whi
 
 Now, write a playbook to install a package of your choice (like git) on a remote server or a local virtual machine and execute it.
 
+```yaml
+---
+- name: Install Git
+  hosts: your_remote_server_group_or_name
+  become: yes
+  tasks:
+    - name: Install git
+      yum:
+        name: git
+        state: present
+```
+
 ## Outcome
 
 By the end of Day 1, you'll have a working Ansible environment on your machine, and you'll have written and executed your first Ansible playbook.
