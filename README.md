@@ -79,3 +79,10 @@ Now, write a playbook to install a package of your choice (like git) on a remote
 
 By the end of Day 1, you'll have a working Ansible environment on your machine, and you'll have written and executed your first Ansible playbook.
 
+# Keep Consistency!
+
+Consistency is key to success in any long-term endeavor. It's better to make steady progress each day than to work intensively for a short period and burn out. 
+
+Think of this bootcamp as a marathon, not a sprint. Your goal isn't to learn everything in one day, but to make a little progress each day. Remember, nature doesn't rush, yet everything gets accomplished. Let's take this journey one day at a time and embrace the beauty of steady, consistent progress.
+
+
