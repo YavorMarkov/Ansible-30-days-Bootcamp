@@ -37,7 +37,7 @@ A simple Ansible playbook looks like this:
       service:
         name: httpd
         state: started
-
+```
 
 The `hosts` value refers to the groups or hosts in your Ansible inventory on which you want to run these tasks. In the tasks, we're using the `yum` module to install Apache and the `service` module to ensure the service is started.
 
