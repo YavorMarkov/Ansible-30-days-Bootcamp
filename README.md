@@ -83,7 +83,7 @@ By the end of Day 1, you'll have a working Ansible environment on your machine, 
 
 You've successfully completed the first day of the Ansible 30-day Bootcamp! You've set up your environment, understood the basics of Ansible, and executed your first playbook. Well done!
 
-As you continue this journey, remember that balance is important. Take a break, get some fresh air, socialize, and maintain your health. A healthy mind fosters better learning. Let's keep going strong for the remaining days. See you tomorrow for a new challenge! :)
+As you continue this journey, remember that balance is important. Take a break, get some fresh air, socialize, and maintain your health. A healthy mind fosters better learning. Let's keep going strong for the remaining days. See you tomorrow for a new challenge! :smiley:
 
 # Keep Consistency!
 
