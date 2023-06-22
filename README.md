@@ -26,7 +26,7 @@ A simple Ansible playbook looks like this:
 ```yaml
 ---
 - name: Install Apache
-  hosts: webserver (your_remote_server_group_or_name)
+  hosts: webserver #your_remote_server_group_or_name
   become: yes
   tasks:
     - name: Install httpd
@@ -47,14 +47,15 @@ Now, write a playbook to install a package of your choice (like git) on a remote
 
 ```yaml
 ---
-- name: Install Git
+- name: Install Git    # This is a playbook to install Git
   hosts: your_remote_server_group_or_name
   become: yes
   tasks:
     - name: Install git
       yum:
-        name: git
-        state: present
+        name: git   # The package we want to install
+        state: present   # We want to ensure git is present
+
 ```
 
 ## Outcome
