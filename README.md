@@ -42,18 +42,18 @@ or the same code with explanations line by line:
 
 ```yaml
 ---
-- name: Install Apache  # This playbook is for installing Apache
-  hosts: webserver  # Specify your remote server group or name here
-  become: yes  # The become directive is used to gain root (or any other user's) privileges
-  tasks:  # The tasks directive is used to list the tasks that the playbook will execute
-    - name: Install httpd  # The name of the first task - it's to install Apache
-      yum:  # The yum module is used to manage packages with the Yum package manager
-        name: httpd  # Specify the package we want to install
-        state: present  # We want to ensure httpd is present (installed)
-    - name: Start service httpd, if not started  # The name of the second task - it's to ensure the Apache service is running
-      service:  # The service module is used to start, stop, restart, or reload services
-        name: httpd  # Specify the service we want to manage
-        state: started  # We want to ensure the httpd service is started
+- name: Install Apache                                        # This playbook is for installing Apache
+  hosts: webserver                                            # Specify your remote server group or name here
+  become: yes                                                 # The become directive is used to gain root (or any other user's) privileges
+  tasks:                                                      # The tasks directive is used to list the tasks that the playbook will execute
+      - name: Install httpd                                   # The name of the first task - it's to install Apache
+        yum:                                                  # The yum module is used to manage packages with the Yum package manager
+          name: httpd                                         # Specify the package we want to install
+          state: present                                      # We want to ensure httpd is present (installed)
+      - name: Start service httpd, if not started             # The name of the second task - it's to ensure the Apache service is running
+        service:                                              # The service module is used to start, stop, restart, or reload services
+          name: httpd                                         # Specify the service we want to manage
+          state: started                                      # We want to ensure the httpd service is started
 ```
 
 The `hosts` value refers to the groups or hosts in your Ansible inventory on which you want to run these tasks. In the tasks, we're using the `yum` module to install Apache and the `service` module to ensure the service is started.
