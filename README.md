@@ -37,3 +37,15 @@ A simple Ansible playbook looks like this:
       service:
         name: httpd
         state: started
+
+
+The `hosts` value refers to the groups or hosts in your Ansible inventory on which you want to run these tasks. In the tasks, we're using the `yum` module to install Apache and the `service` module to ensure the service is started.
+
+### Step 4: Test Your Playbook
+
+Now, write a playbook to install a package of your choice (like git) on a remote server or a local virtual machine and execute it.
+
+## Outcome
+
+By the end of Day 1, you'll have a working Ansible environment on your machine, and you'll have written and executed your first Ansible playbook.
+
