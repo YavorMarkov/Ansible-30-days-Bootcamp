@@ -1,7 +1,6 @@
 
 # Ansible 30 Days Bootcamp
 
-![Ansible Logo](https://github.com/YavorMarkov/Ansible-30-days-Bootcamp/blob/DAY1/pictures/ansible.jpg)
 ## Day 2: Ansible Inventory and Variables
 
 Welcome to Day 2 of our Ansible boot camp! Today, we'll focus on Ansible inventory and variables.
