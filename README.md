@@ -118,7 +118,8 @@ By the end of Day 2, you'll have a solid understanding of Ansible inventory, hos
 
 ---
 # Congratulations!
-You've successfully completed the second day of the Ansible 30-day Bootcamp! You've set up your environment, understood the basics of Ansible, and executed your first playbook. Well done!
+
+Congratulations on successfully completing Day 2 of the Ansible 30-day Bootcamp! Today was all about getting to grips with Ansible's inventory and variables. You've built a foundational understanding of managing hosts and deploying playbooks with targeted host patterns. This includes different types of variables and their use in Ansible to make your operations more dynamic and flexible. Well done!
 
 As you continue this journey, remember that balance is important. Take a break, get some fresh air, socialize, and maintain your health. A healthy mind fosters better learning. Let's keep going strong for the remaining days. See you tomorrow for a new challenge! 😃
 
