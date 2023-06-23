@@ -1,6 +1,6 @@
 # Ansible-30-days-Bootcamp
 # Day 1: Ansible Basics and Environment Setup
-
+![logo](https://github.com/YavorMarkov/Ansible-30-days-Bootcamp/blob/DAY1/pictures/ansible.JPG)
 This is Day 1 of our 30 Days of Ansible journey. Today, we're setting up our environment and familiarizing ourselves with Ansible basics.
 
 ## Objectives:
