@@ -122,7 +122,7 @@ You've successfully completed the second day of the Ansible 30-day Bootcamp! You
 
 As you continue this journey, remember that balance is important. Take a break, get some fresh air, socialize, and maintain your health. A healthy mind fosters better learning. Let's keep going strong for the remaining days. See you tomorrow for a new challenge! 😃
 
-##Keep Consistency!
+##Keep Consistency! 
 Consistency is key to success in any long-term endeavor. It's better to make steady progress each day than to work intensively for a short period and burn out.
 
 Think of this bootcamp as a marathon, not a sprint. Your goal isn't to learn everything in one day, but to make a little progress each day. Remember, nature doesn't rush, yet everything gets accomplished. Let's take this journey one day at a time and embrace the beauty of steady, consistent progress.
