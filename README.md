@@ -1,9 +1,16 @@
-# Ansible-30-days-Bootcamp
+
 # Ansible 30 Days Bootcamp
 
 ## Day 2: Ansible Inventory and Variables
 
 Welcome to Day 2 of our Ansible boot camp! Today, we'll focus on Ansible inventory and variables.
+
+### Objectives:
+
+1. [Understand Ansible inventory and its role in managing hosts](#step-1-ansible-inventory).
+2. [Learn about host patterns and how to target specific groups or individual hosts](#step-2-targeting-hosts-with-patterns).
+3. [Explore different types of variables in Ansible and how to use them](#step-3-ansible-variables).
+
 
 ### Objectives:# Ansible 30 Days Bootcamp
 
