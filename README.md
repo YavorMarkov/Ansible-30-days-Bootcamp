@@ -57,7 +57,7 @@ Host patterns allow you to specify which hosts or groups of hosts should be the 
 Example:
 Create a playbook named `playbook.yml` and specify the desired group or host pattern in the `hosts` field. For example, you can target the `webserver` group by setting `hosts: webserver`. This means that the playbook tasks will only run on hosts belonging to the `webserver` group. In the example playbook, we have a task to install Nginx, which will be executed only on hosts within the `webserver` group.
 
-```ini
+```yml
 ---
 - name: Example Playbook
   hosts: webserver  # Targeting the `webserver` group using the host pattern
@@ -78,7 +78,7 @@ Variables are a fundamental part of Ansible, enabling you to store and use value
 Example:
 Create a playbook named `variable_playbook.yml` and declare the variables you want to use in the `vars` section of the playbook. These variables can hold values such as numbers, strings, lists, or dictionaries. In the example playbook, we define a variable named `http_port` with the value `8080`. The playbook includes a task to display the value of the `http_port` variable using the `debug` module.
 
-```ini
+```yaml
 ---
 - name: Variable Playbook
   hosts: all
@@ -100,7 +100,7 @@ Combining the knowledge of inventory and variables, you can create dynamic and f
 Example:
 Create a playbook named `dynamic_variable_playbook.yml` and use variables to dynamically set values based on conditions or calculations. For example, you can use the `inventory_hostname` variable to derive another variable's value. In the example playbook, we define a variable named `app_env` using the `inventory_hostname` and the `regex_replace` filter. This variable is then used in a task to display the hostname and the environment to which the web application is being deployed.
 
-```init
+```yaml
 ---
 - name: Dynamic Variable Playbook
   hosts: all
